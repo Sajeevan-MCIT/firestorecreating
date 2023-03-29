@@ -1,4 +1,4 @@
-#readne
+#readme
 #CREATE A FIRESTORE NATIVE DATABASE
 provider "google" {}
 resource "google_firestore_database""database" {
