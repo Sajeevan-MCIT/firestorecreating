@@ -1,9 +1,9 @@
 #readme
 #CREATE A FIRESTORE NATIVE DATABASE
-provider "google" {}
+provider "google"{}
 resource "google_firestore_database""database" {
   project="mcit-arun"
-  name="my-firestore-database"
-  location_id="US"
+  name="(default)"
+  location_id="nam5"
   type="FIRESTORE_NATIVE"
 }
